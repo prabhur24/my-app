@@ -1,0 +1,14 @@
+
+
+.Button {
+    padding: 10px;
+    color: chartreuse;
+    background-color: rgb(67, 157, 236);
+}
+
+.Container{
+    color: black;
+    border-image: auto;
+    align-items: center;
+    text-align: center;
+}
