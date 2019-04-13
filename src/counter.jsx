@@ -1,5 +1,7 @@
 import React,{Component} from 'react';
 
+import Home from './home/home.jsx';
+
 import './css/common.css';
 
 export default class Counter extends Component{
@@ -10,6 +12,7 @@ export default class Counter extends Component{
     render(){
         return(
         <div className="Container"> 
+        <Home className="home"/>
         <div>{ this.state.value }</div>
         <button className ="Button" onClick={() => { this.setState({
             value:this.state.value +1

@@ -2,13 +2,15 @@
 
 .Button {
     padding: 10px;
-    color: chartreuse;
-    background-color: rgb(67, 157, 236);
+    color: rgb(255, 123, 0);
+    background-color: black;
 }
 
 .Container{
     color: black;
     border-image: auto;
-    align-items: center;
-    text-align: center;
+}
+
+.home{
+    background-color: aqua;
 }
