@@ -11,13 +11,16 @@ export default class Counter extends Component{
 
     render(){
         return(
-        <div className="Container"> 
-        <Home className="home"/>
+            <div>
+            <Home/>
+            <div> 
+        
         <div>{ this.state.value }</div>
         <button className ="Button" onClick={() => { this.setState({
             value:this.state.value +1
         }) }}>Increment</button>
         </div>
+            </div>
         );
     }
 }

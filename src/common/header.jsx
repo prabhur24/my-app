@@ -7,9 +7,15 @@ export default class Header extends Component{
 
     render(){
         return(
-        <div>
-        <img src={logo} alt="Logo" class="right-header" />
-        <h4 class="header-row">Everything At once </h4>
+        <div className="header-bgnd">
+             <div className="header-logo">
+                <img src={logo} alt="Logo" class="right-header"/>
+             </div>
+             <div className="header-name">
+                <div>   
+                   <h2 className="header-slogan">Learn,Code & Break;</h2>
+                </div>
+             </div>
         </div>
         );
     }
