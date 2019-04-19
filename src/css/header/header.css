@@ -1,7 +1,26 @@
-.right-header{
-    align-items: center;
+
+
+.header-name {
+    text-align: center;
+    float: right;
+    margin-right: 10%;
+    margin-top: 1%;
 }
 
-.header-row {
-    text-align: left;
+.header-logo{
+    margin-left: 5%;
+    width: 50%;
+    float: left;
+    margin-top: 1%;
+}
+
+.header-slogan{
+    text-shadow: 5px;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-bgnd{
+    background-color: azure;
+    height: 100px;
 }

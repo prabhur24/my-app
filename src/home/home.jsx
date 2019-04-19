@@ -9,10 +9,7 @@ export default class Home extends Component{
 
       render(){
           return(
-              <div>
                <Header/>
-               <div>Welcome to My New Home</div>
-               </div>
           );
       }
 }
