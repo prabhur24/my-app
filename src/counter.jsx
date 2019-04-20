@@ -1,6 +1,8 @@
 import React,{Component} from 'react';
 
-import Home from './home/home.jsx';
+import Header from './common/header.jsx';
+
+import Footer from './common/footer.jsx';
 
 import './css/common.css';
 
@@ -11,15 +13,15 @@ export default class Counter extends Component{
 
     render(){
         return(
-            <div>
-            <Home/>
-            <div> 
-        
-        <div>{ this.state.value }</div>
-        <button className ="Button" onClick={() => { this.setState({
-            value:this.state.value +1
-        }) }}>Increment</button>
-        </div>
+            <div className="web-bgnd">
+                <Header/>
+                 <div>
+                     <div>{ this.state.value }</div>
+                     <button className ="Button" onClick={() => { this.setState({
+                                value:this.state.value +1
+                                }) }}>Increment</button>
+                  </div>
+                  <Footer/>
             </div>
         );
     }
