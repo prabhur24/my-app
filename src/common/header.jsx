@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 
-import logo from '../css/header/logo.png'
-import '../css/header/header.css';
+import logo from '../css/logo.png'
+import '../css/common.css';
 
 export default class Header extends Component{
 
@@ -9,7 +9,7 @@ export default class Header extends Component{
         return(
         <div className="header-bgnd">
              <div className="header-logo">
-                <img src={logo} alt="Logo" class="right-header"/>
+                <img src={logo} alt="Logo"/>
              </div>
              <div className="header-name">
                 <div>   
