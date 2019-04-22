@@ -8,7 +8,7 @@ import './css/common.css';
 
 export default class Counter extends Component{
     state = {
-        value:1
+        value:21
     };
 
     render(){
@@ -18,7 +18,7 @@ export default class Counter extends Component{
                  <div>
                      <div>{ this.state.value }</div>
                      <button className ="Button" onClick={() => { this.setState({
-                                value:this.state.value +1
+                                value:this.state.value + 10
                                 }) }}>Increment</button>
                   </div>
                   <Footer/>
